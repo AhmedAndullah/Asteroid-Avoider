@@ -1,0 +1,514 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.47f1 (88c277b85d21) revision 8962679'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 16122 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.47f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Personal/Asteroid-Avoider
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+54287
+Successfully changed project path to: C:/Personal/Asteroid-Avoider
+C:/Personal/Asteroid-Avoider
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23016]  Target information:
+
+Player connection [23016]  * "[IP] 192.168.38.1 [Port] 0 [Flags] 2 [Guid] 2061963191 [EditorId] 2061963191 [Version] 1048832 [Id] WindowsEditor(7,Cosmic) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [23016]  * "[IP] 192.168.14.1 [Port] 0 [Flags] 2 [Guid] 2061963191 [EditorId] 2061963191 [Version] 1048832 [Id] WindowsEditor(7,Cosmic) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [23016]  * "[IP] 192.168.10.63 [Port] 0 [Flags] 2 [Guid] 2061963191 [EditorId] 2061963191 [Version] 1048832 [Id] WindowsEditor(7,Cosmic) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [23016] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [23016] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 10.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.47f1 (88c277b85d21)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Personal/Asteroid-Avoider/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3964 MB
+    Driver:   32.0.15.6614
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007810 seconds.
+- Loaded All Assemblies, in  0.345 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 270 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.550 seconds
+Domain Reload Profiling: 894ms
+	BeginReloadAssembly (100ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (144ms)
+		LoadAssemblies (99ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (124ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (551ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (508ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (343ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (119ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.819 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.736 seconds
+Domain Reload Profiling: 1553ms
+	BeginReloadAssembly (158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (560ms)
+		LoadAssemblies (418ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (233ms)
+			TypeCache.Refresh (192ms)
+				TypeCache.ScanAssembly (169ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (737ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (578ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (403ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 4.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5330 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (348.2 KB). Loaded Objects now: 5798.
+Memory consumption went from 208.0 MB to 207.7 MB.
+Total: 4.093000 ms (FindLiveObjects: 0.688400 ms CreateObjectMapping: 0.342700 ms MarkObjects: 2.851000 ms  DeleteObjects: 0.208700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6350.883697 seconds.
+  path: Assets/StarSparrow/Materials/BonusContent/ColorsAtlas.mat
+  artifactKey: Guid(00eaf01308024044aaffab04875e1397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Materials/BonusContent/ColorsAtlas.mat using Guid(00eaf01308024044aaffab04875e1397) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9d26b36bd3b57493a0f691a028867eb8') in 0.361023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/StarSparrow/Materials/StarSparrow_Blue.mat
+  artifactKey: Guid(8f9ee6e42e2005942a5b092cb9f2087c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Materials/StarSparrow_Blue.mat using Guid(8f9ee6e42e2005942a5b092cb9f2087c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1f29cfd74487c0920faec6c69ab5e180') in 0.065231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/StarSparrow/Materials/StarSparrow_Green.mat
+  artifactKey: Guid(138dd97cb63790543aebb7ab1036fcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Materials/StarSparrow_Green.mat using Guid(138dd97cb63790543aebb7ab1036fcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c59ab19ca1ffddfa66952169db4c9bb7') in 0.043545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 8.204317 seconds.
+  path: Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Core_LP_Red.prefab
+  artifactKey: Guid(7e94bae2054e32b4e8b58927770cd38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Core_LP_Red.prefab using Guid(7e94bae2054e32b4e8b58927770cd38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0882fadc1906e8d70f3bbfbc606a8253') in 0.027355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Weapon_Mirrored_LP_Red.prefab
+  artifactKey: Guid(5fcee70427c45b0479f21b97546e2dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Weapon_Mirrored_LP_Red.prefab using Guid(5fcee70427c45b0479f21b97546e2dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b99c4d8bc7c20b404d200bc7df8faf4a') in 0.013517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Wing_3_LP_Red.prefab
+  artifactKey: Guid(d020278fb783dd043828dd2b012bf982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Wing_3_LP_Red.prefab using Guid(d020278fb783dd043828dd2b012bf982) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '96e0a36e1cddfc02d19cee9a07419026') in 0.025084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Wing_1_LP_Red.prefab
+  artifactKey: Guid(30e7e44d738e12b4d90219afe4380ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Wing_1_LP_Red.prefab using Guid(30e7e44d738e12b4d90219afe4380ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '363205482fe86e326d5f2b9f57691c02') in 0.024479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 19.141918 seconds.
+  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow3.prefab
+  artifactKey: Guid(38e280d5f087064468eb33afa854b684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow3.prefab using Guid(38e280d5f087064468eb33afa854b684) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '252e50986524d16930b56c009c50a5e3') in 0.057082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow5.prefab
+  artifactKey: Guid(8ca464254f02c694788d32d2ed2c82c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow5.prefab using Guid(8ca464254f02c694788d32d2ed2c82c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b67db625ba72daad14202a18d20b67bf') in 0.038770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow18.prefab
+  artifactKey: Guid(ae16fa6df5cf47c4982cb9a872c4fa7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow18.prefab using Guid(ae16fa6df5cf47c4982cb9a872c4fa7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b05de14da2d92a17ddeb1e25637076ef') in 0.063942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 105
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow15.prefab
+  artifactKey: Guid(8b76e784a0aed8245b1f78c3f71461ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow15.prefab using Guid(8b76e784a0aed8245b1f78c3f71461ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e72036738c923f132c2bbee31ecdc666') in 0.077378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 96
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow17.prefab
+  artifactKey: Guid(3322c842c425b864ea8eb933bff766ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow17.prefab using Guid(3322c842c425b864ea8eb933bff766ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a5a1ae9a6a096eddb002d84fc2a66df8') in 0.082892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 78
+========================================================================
+Received Import Request.
+  Time since last request: 17.892903 seconds.
+  path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Fin.prefab
+  artifactKey: Guid(f3f5a95bf53de5744b3140ce9f35902f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Prefabs/Modules/StarSparrow_Fin.prefab using Guid(f3f5a95bf53de5744b3140ce9f35902f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4b9b276a1cdd3be1b4c305611b13b21b') in 0.055743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing.prefab
+  artifactKey: Guid(68648d1973e7d9e4283b2d0b7eb3e539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing.prefab using Guid(68648d1973e7d9e4283b2d0b7eb3e539) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '59c5b1fd2083e41d0a99d8055f3bca2f') in 0.053475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.589 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.221 seconds
+Domain Reload Profiling: 1806ms
+	BeginReloadAssembly (184ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (314ms)
+		LoadAssemblies (358ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (51ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1222ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (447ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (302ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 4.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5176 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (316.5 KB). Loaded Objects now: 5881.
+Memory consumption went from 187.3 MB to 187.0 MB.
+Total: 3.632400 ms (FindLiveObjects: 0.449700 ms CreateObjectMapping: 0.307400 ms MarkObjects: 2.783200 ms  DeleteObjects: 0.091000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 755160bdedd30238421649ac259ce1f8 -> 12107fa2c5a50a16dc908592100d9a64
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor:  -> aca7125a3389c5f4127a11b74e5e93cb
+========================================================================
+Received Import Request.
+  Time since last request: 39.814574 seconds.
+  path: Assets/StarSparrow/Materials/Extra/StarSparrow_Orange.mat
+  artifactKey: Guid(ad3f1f7e85cc2e44181aeb349f446cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Materials/Extra/StarSparrow_Orange.mat using Guid(ad3f1f7e85cc2e44181aeb349f446cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'aee541f2641a3138a105886de3434e14') in 0.287542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 23.309263 seconds.
+  path: Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_EmissionRed.png
+  artifactKey: Guid(e313900dfc5e97e418383a91c126fe36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_EmissionRed.png using Guid(e313900dfc5e97e418383a91c126fe36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '49989978d18c6e370ff8494acd5e71f8') in 0.033680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.589641 seconds.
+  path: Assets/StarSparrow/Textures/BonusContent/FlyingInsect/FlyingInsect_Purple.png
+  artifactKey: Guid(ab00a42ce58ed8346aac0ec3ebc03d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Textures/BonusContent/FlyingInsect/FlyingInsect_Purple.png using Guid(ab00a42ce58ed8346aac0ec3ebc03d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2e10bf568b570b3cbf32b5e2f26d561e') in 0.016913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.391349 seconds.
+  path: Assets/StarSparrow/Textures/BonusContent/Mines/MineSample1_MetallicSmoothness.png
+  artifactKey: Guid(8d0f2071706729c4d95bb30b050bc137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Textures/BonusContent/Mines/MineSample1_MetallicSmoothness.png using Guid(8d0f2071706729c4d95bb30b050bc137) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1495a9cd2fe69bec29f44a681857529a') in 0.018253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_MetallicSmoothness.png
+  artifactKey: Guid(0ff802439110fec41b4c0bda29885e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_MetallicSmoothness.png using Guid(0ff802439110fec41b4c0bda29885e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '427c3e91bb39cec305a4796710d9c431') in 0.009350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.477 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.279 seconds
+Domain Reload Profiling: 1754ms
+	BeginReloadAssembly (173ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (233ms)
+		LoadAssemblies (299ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1280ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (585ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (405ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 5.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5176 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (316.1 KB). Loaded Objects now: 5924.
+Memory consumption went from 187.4 MB to 187.1 MB.
+Total: 6.011100 ms (FindLiveObjects: 0.571800 ms CreateObjectMapping: 0.328700 ms MarkObjects: 4.873500 ms  DeleteObjects: 0.235900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 755160bdedd30238421649ac259ce1f8 -> 12107fa2c5a50a16dc908592100d9a64
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor:  -> aca7125a3389c5f4127a11b74e5e93cb
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
